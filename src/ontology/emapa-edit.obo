@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:12:2025 12:00
+date: 20:01:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -27635,6 +27635,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:25137
 name: sterno-mastoid
 namespace: anatomical_structure
+synonym: "sternocleidomastoid" RELATED []
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS:28 ! TS28
@@ -47657,7 +47658,7 @@ name: lateral ventricle subependymal layer
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16914 ! lateral ventricle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35490
