@@ -5,8 +5,10 @@ saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: terms http://purl.org/dc/terms/ 
 remark: Version 012
 ontology: emapa
+property_value: dcterms-license https://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 EMAPA:0
 property_value: IAO:0000700 TS:0
 
@@ -65587,6 +65589,12 @@ is_a: TS:0 ! Theiler stage
 id: attached_to
 name: attached_to
 xref: RO:0002371
+
+[Typedef]
+id: dcterms-license
+name: license
+xref: http://purl.org/dc/terms/license
+is_metadata_tag: true
 
 [Typedef]
 id: develops_from
