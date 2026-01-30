@@ -1,11 +1,14 @@
 format-version: 1.2
-data-version: releases/2025-12-30
-date: 30:12:2025 12:00
+data-version: releases/2026-01-30
+date: 20:01:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 remark: Version 012
 ontology: emapa
+property_value: IAO:0000700 EMAPA:0
+property_value: IAO:0000700 TS:0
 
 [Term]
 id: EMAPA:0
@@ -25476,8 +25479,10 @@ is_a: EMAPA:35988 ! skeletal muscle
 
 [Term]
 id: EMAPA:25137
-name: sterno-mastoid
+name: sternomastoid
 namespace: anatomical_structure
+synonym: "sterno-mastoid" RELATED []
+synonym: "sternocleidomastoid" RELATED []
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 
@@ -44184,7 +44189,7 @@ name: lateral ventricle subependymal layer
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16914 ! lateral ventricle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35490
@@ -65578,51 +65583,52 @@ name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
 
-[Term]
-id: Tmp_new_group
-name: Tmp new group
-
-[Term]
-id: group_term
-name: Group term
-
 [Typedef]
 id: attached_to
 name: attached_to
+xref: RO:0002371
 
 [Typedef]
 id: develops_from
 name: develops_from
+xref: RO:0002202
 is_transitive: true
 
 [Typedef]
 id: develops_in
 name: develops_in
+xref: RO:0002226
 
 [Typedef]
 id: ends_at
 name: ends_at
+xref: RO:0002493
 
 [Typedef]
 id: has_part
 name: has_part
+xref: BFO:0000051
 is_transitive: true
 
 [Typedef]
 id: is_a
 name: is_a
+builtin: true
 is_transitive: true
 
 [Typedef]
 id: located_in
 name: located_in
+xref: RO:0001025
 
 [Typedef]
 id: part_of
 name: part_of
+xref: BFO:0000050
 is_transitive: true
 
 [Typedef]
 id: starts_at
 name: starts_at
+xref: RO:0002489
 
