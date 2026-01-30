@@ -23,13 +23,28 @@ jobs:
         run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release
 
       - name: Commit and push release files
+        id: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
           if git diff --cached --quiet; then
             echo "Nothing new to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
           else
             git commit -m "Update release files"
             git push
+            echo "committed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create tag
+        if: steps.commit.outputs.committed == 'true'
+        run: |
+          TAG="v$(date +%Y-%m-%d)"
+          git fetch --tags
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists, skipping"
+          else
+            git tag -a "$TAG" -m "Release $TAG"
+            git push origin "$TAG"
           fi
