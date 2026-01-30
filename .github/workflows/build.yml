@@ -1,0 +1,35 @@
+name: Build release files
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths:
+      - 'src/ontology/emapa-edit.obo'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6
+    strategy:
+      max-parallel: 1
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v2
+
+      - name: work around permission issue
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Update release files
+        run: cd src/ontology/ && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release
+
+      - name: Commit and push release files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit"
+          else
+            git commit -m "Update release files"
+            git push
+          fi

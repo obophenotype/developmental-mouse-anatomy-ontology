@@ -52,7 +52,7 @@ $(ONT).obo: $(ONT).owl
 # These can be regenerated with make all_imports
 
 IMPORTS = ro
-IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS)) $(patsubst %, imports/%_terms.txt,$(IMPORTS))
+IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_terms.txt,$(IMPORTS))
 
 # generate seed with all referenced entities
 seed.txt: $(SRC)
@@ -71,10 +71,6 @@ all_imports: $(IMPORTS_OWL)
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
-
-# Add '--check false' flag if your OWL is not obo-strict
-imports/%_import.obo: imports/%_import.owl
-	$(ROBOT) convert -i $< -o $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
