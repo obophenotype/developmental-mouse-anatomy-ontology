@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-01-30
-date: 30:01:2026 12:00
+data-version: releases/2026-02-11
+date: 11:02:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -165,8 +165,8 @@ id: EMAPA:16050
 name: epiblast
 namespace: anatomical_structure
 synonym: "primitive ectoderm" RELATED []
-is_a: EMAPA:16039 ! embryo
-relationship: ends_at TS:08 ! TS08
+relationship: ends_at TS:10 ! TS10
+relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: part_of EMAPA:36119 ! egg cylinder
 relationship: starts_at TS:06 ! TS06
@@ -59842,7 +59842,7 @@ name: respiratory system mucosa
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16727 ! respiratory system
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:18 ! TS18
 
 [Term]
 id: EMAPA:37578
@@ -65411,6 +65411,22 @@ name: diencephalon vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35348 ! forebrain vascular element
 relationship: part_of EMAPA:16896 ! diencephalon
+
+[Term]
+id: EMAPA:38319
+name: bronchus mucosa
+namespace: anatomical_structure
+synonym: "bronchial mucosa" RELATED []
+is_a: EMAPA:37577 ! respiratory system mucosa
+relationship: part_of EMAPA:32689 ! bronchus
+
+[Term]
+id: EMAPA:38320
+name: peripheral nerve fiber
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16665 ! peripheral nervous system
+relationship: starts_at TS:15 ! TS15
 
 [Term]
 id: TS:0

@@ -10,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-01-30/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-02-11/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <oboInOwl:auto-generated-by>OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:date>30:01:2026 12:00</oboInOwl:date>
+        <oboInOwl:date>11:02:2026 12:00</oboInOwl:date>
         <oboInOwl:default-namespace>mouse_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>terryh</oboInOwl:saved-by>
@@ -811,7 +811,12 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_16050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16039"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -833,7 +838,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_08"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_10"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -188781,7 +188786,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_18"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -205133,6 +205138,52 @@
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:38318</oboInOwl:id>
         <rdfs:label>diencephalon vascular element</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37577"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>bronchial mucosa</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EMAPA:38319</oboInOwl:id>
+        <rdfs:label>bronchus mucosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38320">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16665"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_15"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38320</oboInOwl:id>
+        <rdfs:label>peripheral nerve fiber</rdfs:label>
     </owl:Class>
     
 
