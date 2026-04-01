@@ -10,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-02-11/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-04-01/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <oboInOwl:auto-generated-by>OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:date>11:02:2026 12:00</oboInOwl:date>
+        <oboInOwl:date>01:04:2026 12:00</oboInOwl:date>
         <oboInOwl:default-namespace>mouse_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>terryh</oboInOwl:saved-by>
@@ -6198,22 +6198,11 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_16285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35361"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16140"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_13"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasAlternativeId>EMAPA:16477</oboInOwl:hasAlternativeId>
@@ -12173,22 +12162,11 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_16519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16522"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16514"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_14"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_14"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -15439,6 +15417,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_16657 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38338"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -15449,12 +15428,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_15"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -21871,7 +21844,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_16909 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_16909">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36776"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38338"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -23071,12 +23044,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16974"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasAlternativeId>EMAPA:17262</oboInOwl:hasAlternativeId>
@@ -41279,6 +41246,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>olfactory area</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>EMAPA:17779</oboInOwl:id>
         <rdfs:label>olfactory cortex</rdfs:label>
     </owl:Class>
@@ -70384,7 +70352,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35473"/>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:19270</oboInOwl:id>
-        <rdfs:label>cricothyroid</rdfs:label>
+        <rdfs:label>crico-thyroid muscle</rdfs:label>
     </owl:Class>
     
 
@@ -131863,7 +131831,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_26"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasAlternativeId>EMAPA:32853</oboInOwl:hasAlternativeId>
@@ -133615,6 +133583,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_32935 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_32935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35361"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -133625,12 +133594,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_15"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -140436,13 +140399,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_15"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_13"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_15"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -140539,6 +140502,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_35367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35361"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -140549,12 +140513,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_14"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_16"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
@@ -146066,6 +146024,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35552"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>diagonal band nucleus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:35598</oboInOwl:id>
         <rdfs:label>nucleus of diagonal band</rdfs:label>
@@ -146454,6 +146413,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>olfactory tuberculum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:35616</oboInOwl:id>
         <rdfs:label>olfactory tubercle</rdfs:label>
@@ -153329,6 +153289,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>pregeniculate nucleus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>EMAPA:35908</oboInOwl:id>
         <rdfs:label>ventral lateral geniculate nucleus</rdfs:label>
     </owl:Class>
@@ -172888,6 +172849,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16894"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:36776</oboInOwl:id>
         <rdfs:label>brain roof plate</rdfs:label>
@@ -187116,7 +187083,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_37498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_37498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37630"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
@@ -187125,7 +187092,7 @@
         </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:37498</oboInOwl:id>
-        <rdfs:label>cricoarytenoid muscle</rdfs:label>
+        <rdfs:label>crico-arytenoid muscle</rdfs:label>
     </owl:Class>
     
 
@@ -189856,12 +189823,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_37630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35473"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:37630</oboInOwl:id>
         <rdfs:label>laryngeal intrinsic muscle</rdfs:label>
@@ -202473,7 +202434,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_24"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_20"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -202529,7 +202490,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_22"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_20"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -205184,6 +205145,415 @@
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:38320</oboInOwl:id>
         <rdfs:label>peripheral nerve fiber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37498"/>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38321</oboInOwl:id>
+        <rdfs:label>lateral circa-arytenoid muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37498"/>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38322</oboInOwl:id>
+        <rdfs:label>posterior circa-arytenoid muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37498"/>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38323</oboInOwl:id>
+        <rdfs:label>superior circa-arytenoid muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_37630"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38324</oboInOwl:id>
+        <rdfs:label>thyro-arytenoid muscle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38325">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38325</oboInOwl:id>
+        <rdfs:label>prepontine hindbrain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38326">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16916"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38326</oboInOwl:id>
+        <rdfs:label>pontomedullary hindbrain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35763"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38327</oboInOwl:id>
+        <rdfs:label>triangular septal nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35598"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38328</oboInOwl:id>
+        <rdfs:label>vertical nucleus of diagonal band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35598"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38329</oboInOwl:id>
+        <rdfs:label>horizontal nucleus of diagonal band</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>bed nucleus of anterior commissure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38330</oboInOwl:id>
+        <rdfs:label>nucleus of anterior commissure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38331">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38331</oboInOwl:id>
+        <rdfs:label>substantia inominata</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_17779"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38332</oboInOwl:id>
+        <rdfs:label>navicular nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38333">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38333</oboInOwl:id>
+        <rdfs:label>cortical amygdalar area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38334">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_17536"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38334</oboInOwl:id>
+        <rdfs:label>retromammillary area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38335">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>intergeniculate leaflet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38335</oboInOwl:id>
+        <rdfs:label>geniculate leaflet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_32778"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38336</oboInOwl:id>
+        <rdfs:label>medial tectal nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16522"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38337</oboInOwl:id>
+        <rdfs:label>future telencephalon roof plate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36776"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16895"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38338</oboInOwl:id>
+        <rdfs:label>forebrain roof plate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38339">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_16896"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>eminentia thalami</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38339</oboInOwl:id>
+        <rdfs:label>prethalamic eminence</rdfs:label>
     </owl:Class>
     
 

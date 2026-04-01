@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-02-11
-date: 11:02:2026 12:00
+data-version: releases/2026-04-01
+date: 01:04:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1870,9 +1870,8 @@ id: EMAPA:16285
 name: future midbrain roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16477
-relationship: ends_at TS:16 ! TS16
+is_a: EMAPA:35361 ! future brain roof plate
 relationship: part_of EMAPA:16140 ! future midbrain
-relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:16286
@@ -3700,9 +3699,8 @@ relationship: part_of EMAPA:16514 ! future diencephalon
 id: EMAPA:16519
 name: future diencephalon roof plate
 namespace: anatomical_structure
-relationship: ends_at TS:14 ! TS14
+is_a: EMAPA:16522 ! prosencephalon roof plate
 relationship: part_of EMAPA:16514 ! future diencephalon
-relationship: starts_at TS:14 ! TS14
 
 [Term]
 id: EMAPA:16520
@@ -4598,7 +4596,7 @@ relationship: starts_at TS:15 ! TS15
 id: EMAPA:16657
 name: telencephalon roof plate
 namespace: anatomical_structure
-relationship: ends_at TS:16 ! TS16
+is_a: EMAPA:38338 ! forebrain roof plate
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS:15 ! TS15
 
@@ -6715,7 +6713,7 @@ id: EMAPA:16909
 name: diencephalon roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16651
-is_a: EMAPA:36776 ! brain roof plate
+is_a: EMAPA:38338 ! forebrain roof plate
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS:15 ! TS15
 
@@ -6992,7 +6990,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:17262
 synonym: "midbrain roof" RELATED []
 is_a: EMAPA:36776 ! brain roof plate
-relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
 
 [Term]
@@ -12741,6 +12738,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:17779
 name: olfactory cortex
 namespace: anatomical_structure
+synonym: "olfactory area" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17778 ! olfactory lobe
 relationship: starts_at TS:21 ! TS21
@@ -21627,7 +21625,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19270
-name: cricothyroid
+name: crico-thyroid muscle
 namespace: anatomical_structure
 is_a: EMAPA:35473 ! larynx muscle
 
@@ -40423,7 +40421,7 @@ alt_id: EMAPA:32854
 synonym: "isthmus" RELATED []
 synonym: "r0" RELATED []
 synonym: "rh0" RELATED []
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS:12 ! TS12
@@ -40994,7 +40992,7 @@ relationship: part_of EMAPA:16247 ! gut
 id: EMAPA:32935
 name: future forebrain roof plate
 namespace: anatomical_structure
-relationship: ends_at TS:16 ! TS16
+is_a: EMAPA:35361 ! future brain roof plate
 relationship: part_of EMAPA:16640 ! future forebrain
 relationship: starts_at TS:15 ! TS15
 
@@ -43254,9 +43252,9 @@ relationship: starts_at TS:16 ! TS16
 id: EMAPA:35361
 name: future brain roof plate
 namespace: anatomical_structure
-relationship: ends_at TS:15 ! TS15
+relationship: ends_at TS:16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
-relationship: starts_at TS:15 ! TS15
+relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:35362
@@ -43278,7 +43276,7 @@ relationship: starts_at TS:14 ! TS14
 id: EMAPA:35367
 name: future hindbrain roof plate
 namespace: anatomical_structure
-relationship: ends_at TS:16 ! TS16
+is_a: EMAPA:35361 ! future brain roof plate
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS:14 ! TS14
 
@@ -45025,6 +45023,7 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:35598
 name: nucleus of diagonal band
 namespace: anatomical_structure
+synonym: "diagonal band nucleus" EXACT []
 is_a: EMAPA:35763 ! septal nucleus
 relationship: part_of EMAPA:35552 ! medial septal complex
 
@@ -45156,6 +45155,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35616
 name: olfactory tubercle
 namespace: anatomical_structure
+synonym: "olfactory tuberculum" EXACT []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS:22 ! TS22
@@ -47351,6 +47351,7 @@ relationship: starts_at TS:24 ! TS24
 id: EMAPA:35908
 name: ventral lateral geniculate nucleus
 namespace: anatomical_structure
+synonym: "pregeniculate nucleus" RELATED []
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
 relationship: starts_at TS:22 ! TS22
@@ -54019,6 +54020,7 @@ id: EMAPA:36776
 name: brain roof plate
 namespace: anatomical_structure
 is_a: EMAPA:35207 ! central nervous system roof plate
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 
 [Term]
@@ -59257,9 +59259,9 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37498
-name: cricoarytenoid muscle
+name: crico-arytenoid muscle
 namespace: anatomical_structure
-is_a: EMAPA:35473 ! larynx muscle
+is_a: EMAPA:37630 ! laryngeal intrinsic muscle
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -60218,7 +60220,6 @@ id: EMAPA:37630
 name: laryngeal intrinsic muscle
 namespace: anatomical_structure
 is_a: EMAPA:35473 ! larynx muscle
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37631
@@ -64457,7 +64458,7 @@ name: lateral pallium
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:38190 ! pallium
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:38192
@@ -64474,7 +64475,7 @@ namespace: anatomical_structure
 synonym: "ventral telencephalon" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:38194
@@ -65427,6 +65428,150 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16665 ! peripheral nervous system
 relationship: starts_at TS:15 ! TS15
+
+[Term]
+id: EMAPA:38321
+name: lateral circa-arytenoid muscle
+namespace: anatomical_structure
+is_a: EMAPA:37498 ! crico-arytenoid muscle
+
+[Term]
+id: EMAPA:38322
+name: posterior circa-arytenoid muscle
+namespace: anatomical_structure
+is_a: EMAPA:37498 ! crico-arytenoid muscle
+
+[Term]
+id: EMAPA:38323
+name: superior circa-arytenoid muscle
+namespace: anatomical_structure
+is_a: EMAPA:37498 ! crico-arytenoid muscle
+
+[Term]
+id: EMAPA:38324
+name: thyro-arytenoid muscle
+namespace: anatomical_structure
+is_a: EMAPA:37630 ! laryngeal intrinsic muscle
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38325
+name: prepontine hindbrain
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16916 ! hindbrain
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38326
+name: pontomedullary hindbrain
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16916 ! hindbrain
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38327
+name: triangular septal nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35763 ! septal nucleus
+relationship: part_of EMAPA:38193 ! subpallium
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38328
+name: vertical nucleus of diagonal band
+namespace: anatomical_structure
+is_a: EMAPA:35598 ! nucleus of diagonal band
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38329
+name: horizontal nucleus of diagonal band
+namespace: anatomical_structure
+is_a: EMAPA:35598 ! nucleus of diagonal band
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38330
+name: nucleus of anterior commissure
+namespace: anatomical_structure
+synonym: "bed nucleus of anterior commissure" EXACT []
+is_a: EMAPA:35185 ! brain nucleus
+relationship: part_of EMAPA:38193 ! subpallium
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38331
+name: substantia inominata
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38193 ! subpallium
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38332
+name: navicular nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35185 ! brain nucleus
+relationship: part_of EMAPA:17779 ! olfactory cortex
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38333
+name: cortical amygdalar area
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38193 ! subpallium
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38334
+name: retromammillary area
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17536 ! hypothalamus
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38335
+name: geniculate leaflet
+namespace: anatomical_structure
+synonym: "intergeniculate leaflet" EXACT []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:35376 ! geniculate thalamic group
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38336
+name: medial tectal nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35185 ! brain nucleus
+relationship: part_of EMAPA:32778 ! pretectum
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38337
+name: future telencephalon roof plate
+namespace: anatomical_structure
+is_a: EMAPA:16522 ! prosencephalon roof plate
+relationship: part_of EMAPA:36024 ! future telencephalon
+
+[Term]
+id: EMAPA:38338
+name: forebrain roof plate
+namespace: anatomical_structure
+is_a: EMAPA:36776 ! brain roof plate
+relationship: part_of EMAPA:16895 ! forebrain
+
+[Term]
+id: EMAPA:38339
+name: prethalamic eminence
+namespace: anatomical_structure
+synonym: "eminentia thalami" EXACT []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: TS:0
