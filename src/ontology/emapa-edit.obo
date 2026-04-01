@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:04:2026 12:00
+date: 11:02:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -3994,7 +3994,6 @@ relationship: starts_at TS:14 ! TS14
 id: EMAPA:16519
 name: future diencephalon roof plate
 namespace: anatomical_structure
-is_a: EMAPA:16522 ! prosencephalon roof plate
 relationship: ends_at TS:14 ! TS14
 relationship: part_of EMAPA:16514 ! future diencephalon
 relationship: starts_at TS:14 ! TS14
@@ -4130,6 +4129,7 @@ relationship: starts_at TS:14 ! TS14
 id: EMAPA:16544
 name: left umbilical artery
 namespace: anatomical_structure
+is_a: EMAPA:16522 ! prosencephalon roof plate
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:16331 ! umbilical artery embryonic part
 relationship: starts_at TS:14 ! TS14
@@ -18121,7 +18121,7 @@ name: larynx
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16727 ! respiratory system
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:18334
@@ -23560,8 +23560,7 @@ relationship: starts_at TS:24 ! TS24
 id: EMAPA:19270
 name: crico-thyroid muscle
 namespace: anatomical_structure
-is_a: EMAPA:35473 ! larynx muscle
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:37630 ! intrinsic laryngeal muscle
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:26 ! TS26
 
@@ -47525,7 +47524,7 @@ synonym: "laryngeal muscle" RELATED []
 is_a: EMAPA:36050 ! neck muscle
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18333 ! larynx
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:35474
@@ -48701,7 +48700,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35616
 name: olfactory tubercle
 namespace: anatomical_structure
-synonym: "olfactory tuberculum" EXACT []
+synonym: "olfactory tuberculum" EXACT" []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS:22 ! TS22
@@ -65454,7 +65453,7 @@ name: laryngeal extrinsic muscle
 namespace: anatomical_structure
 is_a: EMAPA:35473 ! larynx muscle
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:37630
@@ -65462,7 +65461,7 @@ name: laryngeal intrinsic muscle
 namespace: anatomical_structure
 is_a: EMAPA:35473 ! larynx muscle
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:37631
@@ -71182,7 +71181,7 @@ relationship: starts_at TS:15 ! TS15
 
 [Term]
 id: EMAPA:38321
-name: lateral circa-arytenoid muscle
+name: lateral crico-arytenoid muscle
 namespace: anatomical_structure
 is_a: EMAPA:37498 ! crico-arytenoid muscle
 relationship: ends_at TS:28 ! TS28
@@ -71190,7 +71189,7 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:38322
-name: posterior circa-arytenoid muscle
+name: posterior crico-arytenoid muscle
 namespace: anatomical_structure
 is_a: EMAPA:37498 ! crico-arytenoid muscle
 relationship: ends_at TS:28 ! TS28
@@ -71198,7 +71197,7 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:38323
-name: superior circa-arytenoid muscle
+name: superior crico-arytenoid muscle
 namespace: anatomical_structure
 is_a: EMAPA:37498 ! crico-arytenoid muscle
 relationship: ends_at TS:28 ! TS28
@@ -71208,7 +71207,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:38324
 name: thyro-arytenoid muscle
 namespace: anatomical_structure
-is_a: EMAPA:37630 ! Laryngeal intrinsic muscle
+is_a: EMAPA:37630 ! laryngeal intrinsic muscle
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:28 ! TS28
 
@@ -71217,7 +71216,7 @@ id: EMAPA:38325
 name: prepontine hindbrain
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:16916 ! Hindbrain
+relationship: part_of EMAPA:16916 ! hindbrain
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -71225,13 +71224,14 @@ id: EMAPA:38326
 name: pontomedullary hindbrain
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:16916 ! Hindbrain
+relationship: part_of EMAPA:16916 ! hindbrain
 relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:38327
 name: triangular septal nucleus
 namespace: anatomical_structure
+synonym: "triangular nucleus of septum" EXACT" []
 is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:38193 ! subpallium
@@ -71257,7 +71257,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:38330
 name: nucleus of anterior commissure
 namespace: anatomical_structure
-synonym: "bed nucleus of anterior commissure" EXACT []
+synonym: "bed nucleus of anterior commissure" RELATED []
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:38193 ! subpallium
@@ -71307,7 +71307,7 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:38336
-name: medial tectal nucleus
+name: medial pretectal nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
@@ -71330,10 +71330,10 @@ namespace: anatomical_structure
 is_a: EMAPA:36776 ! brain roof plate
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16895 ! forebrain
-relationship: starts_at TS:17 ! TS17
+relationship: starts_at TS:17 ! TS217
 
 [Term]
-id: EMAPA:38339 
+id: EMAPA:38339
 name: prethalamic eminence
 namespace: anatomical_structure
 synonym: "eminentia thalami" EXACT []
