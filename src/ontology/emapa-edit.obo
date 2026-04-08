@@ -48700,7 +48700,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35616
 name: olfactory tubercle
 namespace: anatomical_structure
-synonym: "olfactory tuberculum" EXACT" []
+synonym: "olfactory tuberculum" EXACT []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS:22 ! TS22
@@ -71231,7 +71231,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:38327
 name: triangular septal nucleus
 namespace: anatomical_structure
-synonym: "triangular nucleus of septum" EXACT" []
+synonym: "triangular nucleus of septum" EXACT []
 is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:38193 ! subpallium
