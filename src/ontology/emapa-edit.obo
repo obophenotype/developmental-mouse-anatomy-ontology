@@ -45087,7 +45087,7 @@ name: bed nucleus of stria terminalis
 namespace: anatomical_structure
 is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35170
@@ -48675,9 +48675,10 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35613
 name: olfactory gland
 namespace: anatomical_structure
-is_a: EMAPA:18425 ! gland
+synonym: "Bowman's gland" RELATED []
+is_a: EMAPA:37871 ! nasal gland
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:16542 ! nose
+relationship: part_of EMAPA:37918 ! olfactory segment of nasal mucosa
 relationship: starts_at TS:25 ! TS25
 
 [Term]
@@ -49890,7 +49891,7 @@ name: septal nucleus
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:32837 ! telencephalon septum
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35764
@@ -67411,6 +67412,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37871
 name: nasal gland
 namespace: anatomical_structure
+is_a: EMAPA:18426 ! gland
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17604 ! nasal cavity
 relationship: starts_at TS:22 ! TS22
@@ -67796,7 +67798,7 @@ name: olfactory segment of nasal mucosa
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:36026 ! nasal cavity mucosa
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:37919
@@ -71339,6 +71341,14 @@ namespace: anatomical_structure
 synonym: "eminentia thalami" EXACT []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38340
+name: anteroventral periventricular nucleus
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:36774 ! hypothalamus periventricular region
 relationship: starts_at TS:28 ! TS28
 
 [Term]
