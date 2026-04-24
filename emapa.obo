@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-04-22
+data-version: releases/2026-04-24
 date: 11:02:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
@@ -8290,8 +8290,8 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:17073
 name: metencephalon alar plate
 namespace: anatomical_structure
+is_a: EMAPA:32915 ! hindbrain alar plate
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17072 ! metencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -8335,8 +8335,8 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:17078
 name: metencephalon basal plate
 namespace: anatomical_structure
+is_a: EMAPA:32914 ! hindbrain basal plate
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17072 ! metencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -8387,8 +8387,8 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:17084
 name: myelencephalon alar plate
 namespace: anatomical_structure
+is_a: EMAPA:32915 ! hindbrain alar plate
 relationship: ends_at TS:19 ! TS19
-relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17083 ! myelencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -8422,8 +8422,8 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:17088
 name: myelencephalon basal plate
 namespace: anatomical_structure
+is_a: EMAPA:32914 ! hindbrain basal plate
 relationship: ends_at TS:19 ! TS19
-relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17083 ! myelencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -11816,8 +11816,8 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:17553
 name: medulla oblongata alar plate
 namespace: anatomical_structure
+is_a: EMAPA:32915 ! hindbrain alar plate
 relationship: ends_at TS:26 ! TS26
-relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17552 ! medulla oblongata lateral wall
 relationship: starts_at TS:20 ! TS20
 
@@ -11850,8 +11850,8 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:17557
 name: medulla oblongata basal plate
 namespace: anatomical_structure
+is_a: EMAPA:32914 ! hindbrain basal plate
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17552 ! medulla oblongata lateral wall
 relationship: starts_at TS:20 ! TS20
 
@@ -43936,8 +43936,8 @@ relationship: starts_at TS:17 ! TS17
 id: EMAPA:32914
 name: hindbrain basal plate
 namespace: anatomical_structure
+is_a: EMAPA:38287 ! basal plate
 relationship: ends_at TS:26 ! TS26
-relationship: is_a EMAPA:38287 ! basal plate
 relationship: part_of EMAPA:32912 ! hindbrain lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -43945,8 +43945,8 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:32915
 name: hindbrain alar plate
 namespace: anatomical_structure
+is_a: EMAPA:38286 ! alar plate
 relationship: ends_at TS:26 ! TS26
-relationship: is_a EMAPA:38286 ! alar plate
 relationship: part_of EMAPA:32912 ! hindbrain lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -60112,8 +60112,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36989
 name: spinal cord dorsal column
 namespace: anatomical_structure
+is_a: EMAPA:38285 ! spinal cord column
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
@@ -60121,8 +60121,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36990
 name: spinal cord lateral column
 namespace: anatomical_structure
+is_a: EMAPA:38285 ! spinal cord column
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
@@ -60146,8 +60146,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36993
 name: spinal cord motor column
 namespace: anatomical_structure
+is_a: EMAPA:38285 ! spinal cord column
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35792 ! spinal cord gray matter
 relationship: starts_at TS:28 ! TS28
 
@@ -60155,8 +60155,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36994
 name: spinal cord ventral column
 namespace: anatomical_structure
+is_a: EMAPA:38285 ! spinal cord column
 relationship: ends_at TS:28 ! TS28
-relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
