@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-04-24
-date: 11:02:2026 12:00
+data-version: releases/2026-05-04
+date: 04:05:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10003,7 +10003,7 @@ id: EMAPA:17338
 name: left ventricle endocardial lining
 namespace: anatomical_structure
 is_a: EMAPA:32747 ! ventricle endocardial lining
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17337 ! heart left ventricle
 relationship: starts_at TS:19 ! TS19
 
@@ -10030,7 +10030,7 @@ id: EMAPA:17341
 name: right ventricle endocardial lining
 namespace: anatomical_structure
 is_a: EMAPA:32747 ! ventricle endocardial lining
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17340 ! heart right ventricle
 relationship: starts_at TS:19 ! TS19
 
@@ -52273,6 +52273,10 @@ relationship: starts_at TS:23 ! TS23
 id: EMAPA:36055
 name: atrium auricular region
 namespace: anatomical_structure
+synonym: "atrial appendage" RELATED []
+synonym: "atrial auricle" RELATED []
+synonym: "atrium appendage" RELATED []
+synonym: "auricular appendage" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS:19 ! TS19
