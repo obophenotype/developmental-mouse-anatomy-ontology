@@ -57402,6 +57402,8 @@ relationship: starts_at TS:10 ! TS10
 id: EMAPA:36654
 name: ventral lateral thalamic nucleus
 namespace: anatomical_structure
+alt_id: EMAPA:38261
+synonym: "ventrolateral thalamic nucleus" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35487 ! lateral thalamic group
 relationship: starts_at TS:24 ! TS24
@@ -70670,14 +70672,6 @@ relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS:26 ! TS26
 
-[Term]
-id: EMAPA:38261
-name: ventrolateral thalamic nucleus
-namespace: anatomical_structure
-synonym: "ventral lateral nucleus" RELATED []
-is_a: EMAPA:35859 ! thalamic nucleus
-relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:38262
