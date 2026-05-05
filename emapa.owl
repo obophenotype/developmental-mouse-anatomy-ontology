@@ -10,7 +10,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-05-04/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-05-05/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
@@ -198643,7 +198643,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasAlternativeId>EMAPA:38261</oboInOwl:hasAlternativeId>
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ventrolateral thalamic nucleus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>EMAPA:36654</oboInOwl:id>
         <rdfs:label>ventral lateral thalamic nucleus</rdfs:label>
     </owl:Class>
@@ -241117,23 +241119,10 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_38261 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38261">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35859"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_26"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>ventral lateral nucleus</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>EMAPA:38261</oboInOwl:id>
-        <rdfs:label>ventrolateral thalamic nucleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36654"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
