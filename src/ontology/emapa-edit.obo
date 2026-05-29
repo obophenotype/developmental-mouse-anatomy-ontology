@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:05:2026 12:00
+date: 29:05:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17421,7 +17421,7 @@ name: jugular lymph sac
 namespace: anatomical_structure
 is_a: EMAPA:38036 ! lymph sac
 relationship: ends_at TS:26 ! TS26
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:18250
@@ -48029,7 +48029,7 @@ is_a: EMAPA:35993 ! vascular element
 relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18248 ! lymphatic system
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35533
@@ -49205,7 +49205,7 @@ name: perineural vascular plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS:22 ! TS22
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:17 ! TS27
 
 [Term]
 id: EMAPA:35679
@@ -49415,6 +49415,7 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:35704
 name: primary motor cortex
 namespace: anatomical_structure
+synonym: "motor cortex" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35357 ! frontal cortex
 relationship: starts_at TS:27 ! TS27
@@ -69053,6 +69054,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:38069
 name: secondary motor cortex
 namespace: anatomical_structure
+synonym: "premotor cortex" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35357 ! frontal cortex
 relationship: starts_at TS:28 ! TS28
