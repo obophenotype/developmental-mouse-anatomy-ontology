@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-05-29
-date: 29:05:2026 12:00
+data-version: releases/2026-06-08
+date: 08:06:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42842,7 +42842,7 @@ namespace: anatomical_structure
 synonym: "epidermis stratum granulosum" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:32787
@@ -57112,7 +57112,7 @@ name: perineum
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:36629
