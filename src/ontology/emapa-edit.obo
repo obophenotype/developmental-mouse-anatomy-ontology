@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:06:2026 12:00
+date: 26:06:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8558,7 +8558,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16985 ! sympathetic nervous system
-relationship: starts_at TS:18 ! TS18
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:17158
@@ -17199,7 +17199,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32814 ! peripheral nervous system ganglion
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16984 ! autonomic nervous system
-relationship: starts_at TS:18 ! TS18
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:18222
