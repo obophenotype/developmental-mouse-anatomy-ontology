@@ -1,3 +1,4 @@
+relationship: starts_at TS:28 ! TS28
 format-version: 1.2
 date: 26:06:2026 12:00
 saved-by: terryh
@@ -23560,7 +23561,7 @@ relationship: starts_at TS:24 ! TS24
 id: EMAPA:19270
 name: crico-thyroid muscle
 namespace: anatomical_structure
-is_a: EMAPA:37630 ! intrinsic laryngeal muscle
+is_a: EMAPA:37630 ! laryngeal intrinsic muscle
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:26 ! TS26
 
@@ -23670,6 +23671,7 @@ def: "The bulbourethral gland of male (bugl) (syn: Cowper's gland) (TS:23-TS:28)
 synonym: "Cowper's gland" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
+is_a: EMAPA:38341 ! bulbourethral gland
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS:23 ! TS23
@@ -27639,8 +27641,8 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:25137
 name: sternomastoid
 namespace: anatomical_structure
-synonym: "sternocleidomastoid" RELATED []
 synonym: "sterno-mastoid" RELATED []
+synonym: "sternocleidomastoid" RELATED []
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS:28 ! TS28
@@ -49205,7 +49207,7 @@ name: perineural vascular plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS:22 ! TS22
-relationship: starts_at TS:17 ! TS27
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:35679
@@ -52348,8 +52350,8 @@ relationship: starts_at TS:23 ! TS23
 id: EMAPA:36055
 name: atrium auricular region
 namespace: anatomical_structure
-synonym: "atrial auricle" RELATED []
 synonym: "atrial appendage" RELATED []
+synonym: "atrial auricle" RELATED []
 synonym: "atrium appendage" RELATED []
 synonym: "auricular appendage" RELATED []
 relationship: ends_at TS:28 ! TS28
@@ -55509,8 +55511,9 @@ name: bulbourethral gland of female
 namespace: anatomical_structure
 def: "The bulbourethral gland of female (bugl) (syn: Bartholin's gland) (TS:23-TS:28). Paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS:23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS:27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." [PMID:25968320]
 synonym: "Bartholin's gland" RELATED []
+is_a: EMAPA:36428 ! female accessory gland
+is_a: EMAPA:38341 ! bulbourethral gland
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:36428 ! female accessory gland
 relationship: starts_at TS:23 ! TS23
 
 [Term]
@@ -67419,7 +67422,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37871
 name: nasal gland
 namespace: anatomical_structure
-is_a: EMAPA:18426 ! gland
+is_a: EMAPA:18426 ! adrenal gland
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17604 ! nasal cavity
 relationship: starts_at TS:22 ! TS22
@@ -70674,7 +70677,6 @@ relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS:26 ! TS26
 
-
 [Term]
 id: EMAPA:38262
 name: mandibular process epithelium
@@ -71332,7 +71334,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36776 ! brain roof plate
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16895 ! forebrain
-relationship: starts_at TS:17 ! TS217
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:38339
@@ -71350,6 +71352,14 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:36774 ! hypothalamus periventricular region
 relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38341
+name: bulbourethral gland
+namespace: anatomical_structure
+is_a: EMAPA:36985 ! reproductive system gland
+relationship: ends_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: TS:0
@@ -71538,8 +71548,8 @@ is_metadata_tag: true
 [Typedef]
 id: develops_from
 name: develops_from
-is_transitive: true
 xref: RO:0002202
+is_transitive: true
 
 [Typedef]
 id: develops_in
@@ -71554,14 +71564,14 @@ xref: RO:0002493
 [Typedef]
 id: has_part
 name: has_part
-is_transitive: true
 xref: BFO:0000051
+is_transitive: true
 
 [Typedef]
 id: is_a
 name: is_a
-is_transitive: true
 builtin: true
+is_transitive: true
 
 [Typedef]
 id: located_in
@@ -71571,10 +71581,11 @@ xref: RO:0001025
 [Typedef]
 id: part_of
 name: part_of
-is_transitive: true
 xref: BFO:0000050
+is_transitive: true
 
 [Typedef]
 id: starts_at
 name: starts_at
 xref: RO:0002489
+
