@@ -10,7 +10,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-06-26/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-08-25/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
@@ -18,6 +18,7 @@
         <oboInOwl:date>26:06:2026 12:00</oboInOwl:date>
         <oboInOwl:default-namespace>mouse_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:relationship>starts_at TS:28</oboInOwl:relationship>
         <oboInOwl:saved-by>terryh</oboInOwl:saved-by>
         <rdfs:comment>Version 012</rdfs:comment>
     </owl:Ontology>
@@ -165,6 +166,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#relationship -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#relationship"/>
     
 
 
@@ -83223,6 +83230,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_19286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_19285"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35327"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38341"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -192441,13 +192449,8 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_36429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_36429">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36428"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36428"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_38341"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
@@ -243294,6 +243297,29 @@
         <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
         <oboInOwl:id>EMAPA:38340</oboInOwl:id>
         <rdfs:label>anteroventral periventricular nucleus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EMAPA_38341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_36985"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002493"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace>anatomical_structure</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>EMAPA:38341</oboInOwl:id>
+        <rdfs:label>bulbourethral gland</rdfs:label>
     </owl:Class>
     
 

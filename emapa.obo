@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-06-26
+data-version: releases/2026-08-25
 date: 26:06:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
@@ -11,6 +11,7 @@ ontology: emapa
 property_value: dcterms-license https://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 EMAPA:0
 property_value: IAO:0000700 TS:0
+relationship: starts_at TS:28
 
 [Term]
 id: EMAPA:0
@@ -23630,6 +23631,7 @@ def: "The bulbourethral gland of male (bugl) (syn: Cowper's gland) (TS:23-TS:28)
 synonym: "Cowper's gland" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
+is_a: EMAPA:38341 ! bulbourethral gland
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS:23 ! TS23
@@ -55434,8 +55436,9 @@ name: bulbourethral gland of female
 namespace: anatomical_structure
 def: "The bulbourethral gland of female (bugl) (syn: Bartholin's gland) (TS:23-TS:28). Paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS:23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS:27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." [PMID:25968320]
 synonym: "Bartholin's gland" RELATED []
+is_a: EMAPA:36428 ! female accessory gland
+is_a: EMAPA:38341 ! bulbourethral gland
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:36428 ! female accessory gland
 relationship: starts_at TS:23 ! TS23
 
 [Term]
@@ -71273,6 +71276,14 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:36774 ! hypothalamus periventricular region
 relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38341
+name: bulbourethral gland
+namespace: anatomical_structure
+is_a: EMAPA:36985 ! reproductive system gland
+relationship: ends_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: TS:0
