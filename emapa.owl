@@ -10,15 +10,14 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-08-25/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-09-04/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <oboInOwl:auto-generated-by>OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:date>26:06:2026 12:00</oboInOwl:date>
+        <oboInOwl:date>04:09:2026 12:00</oboInOwl:date>
         <oboInOwl:default-namespace>mouse_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:relationship>starts_at TS:28</oboInOwl:relationship>
         <oboInOwl:saved-by>terryh</oboInOwl:saved-by>
         <rdfs:comment>Version 012</rdfs:comment>
     </owl:Ontology>
@@ -166,12 +165,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#relationship -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#relationship"/>
     
 
 

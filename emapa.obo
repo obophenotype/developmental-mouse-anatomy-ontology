@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-25
-date: 26:06:2026 12:00
+data-version: releases/2026-09-04
+date: 04:09:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11,7 +11,6 @@ ontology: emapa
 property_value: dcterms-license https://creativecommons.org/licenses/by/4.0/
 property_value: IAO:0000700 EMAPA:0
 property_value: IAO:0000700 TS:0
-relationship: starts_at TS:28
 
 [Term]
 id: EMAPA:0
