@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:09:2026 12:00
+date: 02:10:2026 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44850,10 +44850,10 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:35142
 name: arcuate nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35143
@@ -47069,7 +47069,7 @@ namespace: anatomical_structure
 synonym: "tuber cinereum" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35421
@@ -51169,7 +51169,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35420 ! hypothalamus medial zone tuberal area
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35917
@@ -58435,7 +58435,7 @@ name: hypothalamus periventricular region
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:36775
@@ -71348,9 +71348,10 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:38340
 name: anteroventral periventricular nucleus
 namespace: anatomical_structure
+is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:36774 ! hypothalamus periventricular region
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:38341
