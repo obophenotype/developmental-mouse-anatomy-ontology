@@ -10,12 +10,12 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/emapa.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-09-04/emapa.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/emapa/releases/2026-10-02/emapa.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/EMAPA_0"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/TS_0"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <oboInOwl:auto-generated-by>OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-        <oboInOwl:date>04:09:2026 12:00</oboInOwl:date>
+        <oboInOwl:date>02:10:2026 12:00</oboInOwl:date>
         <oboInOwl:default-namespace>mouse_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>terryh</oboInOwl:saved-by>
@@ -156770,7 +156770,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_35142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_35142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35417"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -156780,7 +156780,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_24"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -164269,7 +164269,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_27"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -178208,7 +178208,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_27"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -201896,7 +201896,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -243268,7 +243268,7 @@
     <!-- http://purl.obolibrary.org/obo/EMAPA_38340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EMAPA_38340">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EMAPA_35417"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -243278,7 +243278,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002489"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_28"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TS_23"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
